@@ -10,24 +10,28 @@ Two code files do most of the heavy lifting here:
 
 - `src/renderScript.ts` is a node process that fetches the contents of the provided Reddit post url, generates a voiceover using [ElevenLabs](https://elevenlabs.io/), gets timestamps for the voiceover and organizes all of this metadata in `./metadata.json`. Finally, it calls `renderVideo` to render & export the project using a headless browser.
 - `src/scenes/example.tsx` defines the animation flow and audio of our video
+<br/>
+<br/>
 
 
 
-  ## Getting Started
+## Getting Started
 
-  First, you should clone the repository and install all dependencies:
+First, you should clone the repository and install all dependencies:
 
-   ```bash
-   git clone https://github.com/redotvideo/reddit-post-video.git
-   cd reddit-post-video
-   npm install
-   ```
+ ```bash
+ git clone https://github.com/redotvideo/reddit-post-video.git
+ cd reddit-post-video
+ npm install
+ ```
 
-   You can now look at the example project using the editor:
+ You can now look at the example project using the editor:
 
-  ```bash
-  npm start
-  ```
+```bash
+npm start
+```
+<br/>
+<br/>
 
 
 ## Create your own video
@@ -69,4 +73,4 @@ tsc && node dist/src/renderScript.js --post <reddit-post-url>
 You can modify the text color and voice of your video using the following flags:
 
 - `--voice Daniel`: default is Sarah
-- `textcolor yellow`: default is red
+- `--textcolor yellow`: default is red
