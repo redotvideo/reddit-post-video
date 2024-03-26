@@ -1,4 +1,4 @@
-# Automatically Generate Short Videos from Reddit Posts 🪄
+# Create Short Videos from Reddit Posts 🪄
 
 This project uses [Revideo](https://github.com/redotvideo/revideo) to automatically generate short videos from Reddit Post urls. Here is a (low resolution) example:
 
